@@ -1,3 +1,6 @@
+<a href="https://adamclasic.github.io/">
 <h1 align="center">
-  🔥 [Portfolio](https://adamclasic.github.io/) 🔥
+  🔥 Portfolio 🔥
+  
 </h1>
+</a>
