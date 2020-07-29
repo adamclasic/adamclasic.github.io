@@ -1,49 +1,43 @@
 const projects = [
 	{
-		name: 'Project Title',
+		name: 'Reeltea',
 		description: [
-			`Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-			Excepturi neque, ipsa animi maiores repellendus distinctio
-			aperiam earum dolor voluptatum consequatur blanditiis
-			inventore debitis fuga numquam voluptate ex architecto
-			itaque molestiae.`
+			`A Webapp where you can express your self about your favorite moments in Reality Tv-shows The app has been built using the following tools:
+			Rails
+			Postgresql
+			Cloudinary
+			Bootstrap
+			Sass`
 		],
-		url: '#!',
-		repo: '#!',
+		url: 'https://intense-temple-98550.herokuapp.com/users/sign_up!',
+		repo: 'https://github.com/adamclasic/reeltea!',
 		thumbnail: {
-			image: 'assets/images/banner.png',
+			image: 'assets/images/reeltea.png',
 			alt: 'project banner'
 		}
 	},
 	{
 		name: 'Project Title',
 		description: [
-			`Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-			Excepturi neque, ipsa animi maiores repellendus distinctio
-			aperiam earum dolor voluptatum consequatur blanditiis
-			inventore debitis fuga numquam voluptate ex architecto
-			itaque molestiae.`
+			`A CSS Linter with the purpose to check for spacing, indentation and format errors. Built with Ruby.`
 		],
-		url: '#!',
-		repo: '#!',
+		url: 'https://repl.it/repls/MedicalAwareIrc!',
+		repo: 'https://github.com/adamclasic/css-linter!',
 		thumbnail: {
-			image: 'assets/images/banner.png',
+			image: 'assets/images/csslinter.png',
 			alt: 'project banner'
 		}
 	},
 	{
-		name: 'Project Title',
+		name: 'Tea E-store',
 		description: [
-			`Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-			Excepturi neque, ipsa animi maiores repellendus distinctio
-			aperiam earum dolor voluptatum consequatur blanditiis
-			inventore debitis fuga numquam voluptate ex architecto
-			itaque molestiae.`
+			`devlopment of the flower shop and holiday bouquets. A bright color scheme,
+			a 12-column grid and the principle of atomic design were chosen.`
 		],
-		url: '#!',
-		repo: '#!',
+		url: 'https://adamclasic.github.io/Flower-e-shop/!',
+		repo: 'https://github.com/adamclasic/Flower-e-shop!',
 		thumbnail: {
-			image: 'assets/images/banner.png',
+			image: 'assets/images/social for flower shop.png',
 			alt: 'project banner'
 		}
 	}
@@ -52,19 +46,19 @@ const projects = [
 const socials = [
 	{
 		name: 'twitter',
-		url: '#!'
+		url: 'https://twitter.com/AdamAllalou!'
 	},
 	{
 		name: 'codepen',
-		url: '#!'
+		url: 'https://medium.com/@aabou9!'
 	},
 	{
 		name: 'linkedin',
-		url: '#!'
+		url: 'https://www.linkedin.com/in/adam-allalou/!'
 	},
 	{
 		name: 'github',
-		url: '#!'
+		url: 'https://github.com/adamclasic!'
 	}
 ];
 
