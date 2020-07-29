@@ -1,0 +1,280 @@
+<div id="top"></div>
+
+{{!-- **** Welcome Section **** --}}
+<div id="welcome-section">
+	<div class="container">
+		{{!-- Opening Text --}}
+		<ScrollReveal
+			@tagName="h1"
+			@elementId="opening-text"
+			class="load-hidden"
+			@distance="30px"
+			@duration={{1000}}
+			@reset={{true}}
+			@delay={{500}}
+			@origin={{@leftToBottom}}
+		>
+			Hi, my name is <span class="text-color-main">Adam Allalou</span>
+			<span class="block">I'm the Unknown Developer.</span>
+		</ScrollReveal>
+		{{!-- /END Opening Text --}}
+
+		{{!-- Opening Call To Action --}}
+		<ScrollReveal
+			@tagName="p"
+			@elementId="opening-paragraph"
+			class="load-hidden"
+			@distance="30px"
+			@duration={{1000}}
+			@reset={{true}}
+			@delay={{1000}}
+			@origin={{@leftToBottom}}
+		>
+			<a class="cta-btn cta-btn--hero" href="#about" {{jumpscroll}}>Know more</a>
+		</ScrollReveal>
+	</div>
+</div>
+{{!-- /END Welcome Section --}}
+
+
+{{!-- **** About Section **** --}}
+<section id="about">
+	<div class="container">
+		<ScrollReveal
+			@tagName="h2"
+			class="section-title"
+			@duration={{1000}}
+			@delay={{300}}
+		>
+			About me
+		</ScrollReveal>
+		
+		<div class="row about-wrapper">
+			<div class="col-md-6 col-sm-12">
+				<ScrollReveal
+					class="about-wrapper__image"
+					@distance="30px"
+					@duration={{1000}}
+				>
+					{{!-- Profile image: change path: assets/images/yourpic.jpg --}}
+					<img
+						class="img-fluid rounded shadow-lg"
+						height="auto"
+						width="300px"
+						src="assets/images/profile.png"
+						alt="Profile"
+					>
+					{{!-- /END Profile image --}}
+				</ScrollReveal>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<ScrollReveal
+					class="about-wrapper__info"
+					@distance="30px"
+					@duration={{1000}}
+					@delay={{1000}}
+					@origin={{@leftToBottom}}
+				>
+					{{!-- 
+					Profile about-text: I recommend to have no more than 4 blocks 
+					of text
+					--}}
+					<p class="mb-8 text-left">
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Excepturi neque, ipsa animi maiores repellendus distinctio
+						aperiam earum.
+					</p>
+					<p class="mb-8 text-left">
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Excepturi neque, ipsa animi maiores repellendus distinctio
+						aperiam earum.
+					</p>
+					<p class="mb-8 text-left">
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+						Excepturi neque, ipsa animi maiores repellendus distinctio
+						aperiam earum.
+
+						{{!-- 
+						Resume Link: Put your external link for resume.
+						If you want you can comment this link
+						--}}
+						<a rel="noopener noreferrer" target="_blank" class="mt-8 cta-btn cta-btn--resume" href="#!">
+							View Resume
+						</a>
+						{{!-- /END Resume link --}}
+					</p>
+					{{!-- /END Profile about text  --}}
+				</ScrollReveal>
+			</div>
+		</div>
+	</div>
+</section>
+{{!-- /END About Section --}}
+
+
+{{!-- **** Projects Section **** --}}
+<section id="projects">
+	<div class="container">
+		{{!-- Personal projects --}}
+		<div class="project-wrapper">
+			<ScrollReveal
+				@tagName="h2"
+				class="section-title dark-blue-text"
+				@duration={{1000}}
+				@delay={{300}}
+			>
+				Projects
+			</ScrollReveal>
+
+			{{#each this.projects as |project|}}
+				{{!-- Each .row is a project block --}}
+				<div class="row">
+					<div class="col-lg-4 col-sm-12">
+						<ScrollReveal
+							class="project-wrapper__text"
+							@distance="30px"
+							@duration={{1000}}
+							@delay={{500}}
+							@origin={{@leftToBottom}}
+						>
+							{{!-- 1) project title --}}
+							<h3 class="project-wrapper__text-title">{{project.name}}</h3>
+							
+							{{#if project.description}}
+								{{!-- 2) project info --}}
+								<div>
+									{{#each project.description as |paragraph|}}
+										<p class="mb-4">
+											{{paragraph}}
+										</p>
+									{{/each}}
+								</div>
+							{{/if}}
+
+							{{#if project.url}}
+								{{!-- 3) project url  --}}
+								<a rel="noopener noreferrer" target="_blank" class="cta-btn cta-btn--hero" href={{project.url}}>
+									See Live
+								</a>
+							{{/if}}
+
+							{{#if project.repo}}
+								{{!-- 4) project repository url --}}
+								<a rel="noopener noreferrer" target="_blank" class="cta-btn text-color-main" href={{project.repo}}>
+									Source Code
+								</a>
+							{{/if}}
+						</ScrollReveal>
+					</div>
+					<div class="col-lg-8 col-sm-12">
+						<ScrollReveal
+							class="project-wrapper__image"
+							@distance="30px"
+							@duration={{1000}}
+							@delay={{1000}}
+							@origin={{@rightToBottom}}
+						>
+							{{#if project.url}}
+								{{!-- 1) project url --}}
+								<a href={{project.url}} rel="noopener noreferrer" target="_blank">
+									<TiltElement
+										class="thumbnail rounded"
+										@max={{7}}
+										@glare={{true}}
+										@max-glare={{0.5}}
+									>
+										{{!-- 2) project image path  --}}
+										<img class="img-fluid" src={{project.thumbnail.image}} alt={{project.thumbnail.alt}}>
+									</TiltElement>
+								</a>
+							{{else}}
+								<TiltElement
+									class="thumbnail rounded"
+									@max={{7}}
+									@glare={{true}}
+									@max-glare={{0.5}}
+								>
+									{{!-- 2) project image path  --}}
+									<img class="img-fluid" src={{project.thumbnail.image}} alt={{project.thumbnail.alt}}>
+								</TiltElement>
+							{{/if}}
+						</ScrollReveal>
+					</div>
+				</div>
+				{{!-- /END Project block --}}
+			{{/each}}
+		</div>
+		{{!-- /END Personal projects --}}
+	</div>
+</section>
+{{!-- /END Projects Section --}}
+
+
+{{!-- **** Contact Section **** --}}
+<section id="contact">
+	<div class="container">
+		<ScrollReveal
+			@tagName="h2"
+			class="section-title"
+			@duration={{1000}}
+			@delay={{300}}
+		>
+			Contact
+		</ScrollReveal>
+		<ScrollReveal
+			class="contact-wrapper"
+			@distance="30px"
+			@duration={{1000}}
+			@delay={{800}}
+		>
+			{{!-- 1) Contact Call To Action: change if necessary --}}
+			<p class="mb-4 contact-wrapper__text">
+				[Put here your call to action]
+			</p>
+			{{!-- 2) Contact mail link: change to your work email & change text if necessary --}}
+			<a
+				rel="noopener noreferrer"
+				target="_blank"
+				class="cta-btn cta-btn--resume"
+				href="mailto:example@email.com"
+			>
+				Button
+			</a>
+		</ScrollReveal>
+	</div>
+</section>
+{{!-- /END Contact Section --}}
+
+
+{{!-- **** Footer Section **** --}}
+<footer class="footer navbar-static-bottom">
+	<div class="container">
+		<a class="back-to-top" href="#top" {{jumpscroll}}>
+			<span class="sr-only">Back to top</span>
+			{{fa-icon "angle-up" class="pointer-events-none" prefix="fas" size="2x"}}
+		</a>
+
+		{{#if this.socials}}
+			{{!-- Social Links --}}
+			<div class="social-links">
+				{{#each this.socials as |social|}}
+					<a href={{social.url}} rel="noopener noreferrer" target="_blank" aria-label="Follow me on {{social.name}}">
+						{{fa-icon social.name class="fa-inverse pointer-events-none" prefix="fab" aria-label=social.name}}
+					</a>
+				{{/each}}
+			</div>
+		{{!-- /END Social Links --}}
+		{{/if}}
+
+		<hr>
+
+		{{!-- Please leave this in place and give credit where it is due --}}
+		<p class="footer__text">
+			&copy; 2020 - Developed by
+			<a href="https://github.com/sernadesigns" rel="noopener noreferrer" target="_blank">
+				Adam Allalou
+			</a>
+		</p>
+	</div>
+</footer>
+{{!-- /END Footer Section --}}
