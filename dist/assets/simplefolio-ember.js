@@ -2,7 +2,7 @@
 
 
 
-;define("adamclasic.github.io/app", ["exports", "ember-resolver", "ember-load-initializers", "adamclasic.github.io/config/environment"], function (_exports, _emberResolver, _emberLoadInitializers, _environment) {
+;define("simplefolio-ember/app", ["exports", "ember-resolver", "ember-load-initializers", "simplefolio-ember/config/environment"], function (_exports, _emberResolver, _emberLoadInitializers, _environment) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -28,7 +28,7 @@
   _exports.default = App;
   (0, _emberLoadInitializers.default)(App, _environment.default.modulePrefix);
 });
-;define("adamclasic.github.io/breakpoints", ["exports"], function (_exports) {
+;define("simplefolio-ember/breakpoints", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -42,7 +42,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/component-managers/glimmer", ["exports", "@glimmer/component/-private/ember-component-manager"], function (_exports, _emberComponentManager) {
+;define("simplefolio-ember/component-managers/glimmer", ["exports", "@glimmer/component/-private/ember-component-manager"], function (_exports, _emberComponentManager) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -55,7 +55,7 @@
     }
   });
 });
-;define("adamclasic.github.io/components/copy-button", ["exports", "ember-cli-clipboard/components/copy-button"], function (_exports, _copyButton) {
+;define("simplefolio-ember/components/copy-button", ["exports", "ember-cli-clipboard/components/copy-button"], function (_exports, _copyButton) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -68,7 +68,7 @@
     }
   });
 });
-;define("adamclasic.github.io/components/etw/module-section", ["exports"], function (_exports) {
+;define("simplefolio-ember/components/etw/module-section", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -82,7 +82,7 @@
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/components/etw/module-style-detail", ["exports", "ember-cli-tailwind/utils/classes-for-module-style"], function (_exports, _classesForModuleStyle) {
+;define("simplefolio-ember/components/etw/module-style-detail", ["exports", "ember-cli-tailwind/utils/classes-for-module-style"], function (_exports, _classesForModuleStyle) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -118,7 +118,7 @@
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/components/etw/module-style-example", ["exports", "ember-cli-tailwind/utils/classes-for-module-style"], function (_exports, _classesForModuleStyle) {
+;define("simplefolio-ember/components/etw/module-style-example", ["exports", "ember-cli-tailwind/utils/classes-for-module-style"], function (_exports, _classesForModuleStyle) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -144,7 +144,7 @@
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/components/fa-icon", ["exports", "@fortawesome/ember-fontawesome/components/fa-icon"], function (_exports, _faIcon) {
+;define("simplefolio-ember/components/fa-icon", ["exports", "@fortawesome/ember-fontawesome/components/fa-icon"], function (_exports, _faIcon) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -157,7 +157,7 @@
     }
   });
 });
-;define("adamclasic.github.io/components/scroll-reveal", ["exports", "@glimmer/component", "scrollreveal"], function (_exports, _component, _scrollreveal) {
+;define("simplefolio-ember/components/scroll-reveal", ["exports", "@glimmer/component", "scrollreveal"], function (_exports, _component, _scrollreveal) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -182,10 +182,10 @@
   </div>
   */
   {
-    id: "z8yCVog9",
+    id: "8qkHHLBl",
     block: "{\"symbols\":[\"@elementId\",\"&attrs\",\"&default\"],\"statements\":[[7,\"div\",false],[12,\"id\",[23,1,[]]],[13,2],[3,\"did-insert\",[[23,0,[\"initializeScrollReveal\"]]]],[8],[0,\"\\n\\t\"],[14,3],[0,\"\\n\"],[9]],\"hasEval\":false}",
     meta: {
-      moduleName: "adamclasic.github.io/components/scroll-reveal.hbs"
+      moduleName: "simplefolio-ember/components/scroll-reveal.hbs"
     }
   });
 
@@ -385,7 +385,7 @@
 
   Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, XScrollReveal);
 });
-;define("adamclasic.github.io/components/tilt-element", ["exports", "@glimmer/component", "vanilla-tilt"], function (_exports, _component, _vanillaTilt) {
+;define("simplefolio-ember/components/tilt-element", ["exports", "@glimmer/component", "vanilla-tilt"], function (_exports, _component, _vanillaTilt) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -410,10 +410,10 @@
   </div>
   */
   {
-    id: "lSrcaabR",
+    id: "IQfzWsrO",
     block: "{\"symbols\":[\"&default\"],\"statements\":[[7,\"div\",false],[12,\"data-tilt\",\"\"],[3,\"did-insert\",[[23,0,[\"initializeVanillaTilt\"]]]],[8],[0,\"\\n\\t\"],[14,1],[0,\"\\n\"],[9]],\"hasEval\":false}",
     meta: {
-      moduleName: "adamclasic.github.io/components/tilt-element.hbs"
+      moduleName: "simplefolio-ember/components/tilt-element.hbs"
     }
   });
 
@@ -537,7 +537,7 @@
 
   Ember._setComponentTemplate(__COLOCATED_TEMPLATE__, TiltElement);
 });
-;define("adamclasic.github.io/controllers/application-tailwind", ["exports", "adamclasic.github.io/tailwind/config/colors", "adamclasic.github.io/tailwind/config/screens", "adamclasic.github.io/tailwind/config/fonts", "adamclasic.github.io/tailwind/config/text-sizes", "adamclasic.github.io/tailwind/config/font-weights", "adamclasic.github.io/tailwind/config/line-height", "adamclasic.github.io/tailwind/config/letter-spacing", "adamclasic.github.io/tailwind/config/border-widths", "adamclasic.github.io/tailwind/config/border-radius", "adamclasic.github.io/tailwind/config/width", "adamclasic.github.io/tailwind/config/height", "adamclasic.github.io/tailwind/config/min-width", "adamclasic.github.io/tailwind/config/min-height", "adamclasic.github.io/tailwind/config/max-width", "adamclasic.github.io/tailwind/config/max-height", "adamclasic.github.io/tailwind/config/padding", "adamclasic.github.io/tailwind/config/margin", "adamclasic.github.io/tailwind/config/negative-margin", "adamclasic.github.io/tailwind/config/shadows", "adamclasic.github.io/tailwind/config/z-index", "adamclasic.github.io/tailwind/config/opacity", "adamclasic.github.io/tailwind/config/svg-fill", "adamclasic.github.io/tailwind/config/svg-stroke"], function (_exports, _colors, _screens, _fonts, _textSizes, _fontWeights, _lineHeight, _letterSpacing, _borderWidths, _borderRadius, _width, _height, _minWidth, _minHeight, _maxWidth, _maxHeight, _padding, _margin, _negativeMargin, _shadows, _zIndex, _opacity, _svgFill, _svgStroke) {
+;define("simplefolio-ember/controllers/application-tailwind", ["exports", "simplefolio-ember/tailwind/config/colors", "simplefolio-ember/tailwind/config/screens", "simplefolio-ember/tailwind/config/fonts", "simplefolio-ember/tailwind/config/text-sizes", "simplefolio-ember/tailwind/config/font-weights", "simplefolio-ember/tailwind/config/line-height", "simplefolio-ember/tailwind/config/letter-spacing", "simplefolio-ember/tailwind/config/border-widths", "simplefolio-ember/tailwind/config/border-radius", "simplefolio-ember/tailwind/config/width", "simplefolio-ember/tailwind/config/height", "simplefolio-ember/tailwind/config/min-width", "simplefolio-ember/tailwind/config/min-height", "simplefolio-ember/tailwind/config/max-width", "simplefolio-ember/tailwind/config/max-height", "simplefolio-ember/tailwind/config/padding", "simplefolio-ember/tailwind/config/margin", "simplefolio-ember/tailwind/config/negative-margin", "simplefolio-ember/tailwind/config/shadows", "simplefolio-ember/tailwind/config/z-index", "simplefolio-ember/tailwind/config/opacity", "simplefolio-ember/tailwind/config/svg-fill", "simplefolio-ember/tailwind/config/svg-stroke"], function (_exports, _colors, _screens, _fonts, _textSizes, _fontWeights, _lineHeight, _letterSpacing, _borderWidths, _borderRadius, _width, _height, _minWidth, _minHeight, _maxWidth, _maxHeight, _padding, _margin, _negativeMargin, _shadows, _zIndex, _opacity, _svgFill, _svgStroke) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -596,7 +596,7 @@
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/controllers/application", ["exports", "adamclasic.github.io/utils/data"], function (_exports, _data) {
+;define("simplefolio-ember/controllers/application", ["exports", "simplefolio-ember/utils/data"], function (_exports, _data) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -640,16 +640,16 @@
   }), _applyDecoratedDescriptor(_class.prototype, "leftToBottom", [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, "leftToBottom"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "rightToBottom", [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, "rightToBottom"), _class.prototype)), _class));
   _exports.default = ApplicationController;
 });
-;define("adamclasic.github.io/ember-cli-tailwind/tests/addon.lint-test", [], function () {
+;define("simplefolio-ember/ember-cli-tailwind/tests/addon.lint-test", [], function () {
   "use strict";
 });
-;define("adamclasic.github.io/ember-cli-tailwind/tests/app.lint-test", [], function () {
+;define("simplefolio-ember/ember-cli-tailwind/tests/app.lint-test", [], function () {
   "use strict";
 });
-;define("adamclasic.github.io/ember-cli-tailwind/tests/templates.template.lint-test", [], function () {
+;define("simplefolio-ember/ember-cli-tailwind/tests/templates.template.lint-test", [], function () {
   "use strict";
 });
-;define("adamclasic.github.io/helpers/and", ["exports", "ember-truth-helpers/helpers/and"], function (_exports, _and) {
+;define("simplefolio-ember/helpers/and", ["exports", "ember-truth-helpers/helpers/and"], function (_exports, _and) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -668,7 +668,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/app-version", ["exports", "adamclasic.github.io/config/environment", "ember-cli-app-version/utils/regexp"], function (_exports, _environment, _regexp) {
+;define("simplefolio-ember/helpers/app-version", ["exports", "simplefolio-ember/config/environment", "ember-cli-app-version/utils/regexp"], function (_exports, _environment, _regexp) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -707,7 +707,7 @@
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/helpers/append", ["exports", "ember-composable-helpers/helpers/append"], function (_exports, _append) {
+;define("simplefolio-ember/helpers/append", ["exports", "ember-composable-helpers/helpers/append"], function (_exports, _append) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -726,7 +726,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/array", ["exports", "ember-composable-helpers/helpers/array"], function (_exports, _array) {
+;define("simplefolio-ember/helpers/array", ["exports", "ember-composable-helpers/helpers/array"], function (_exports, _array) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -745,7 +745,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/chunk", ["exports", "ember-composable-helpers/helpers/chunk"], function (_exports, _chunk) {
+;define("simplefolio-ember/helpers/chunk", ["exports", "ember-composable-helpers/helpers/chunk"], function (_exports, _chunk) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -764,7 +764,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/compact", ["exports", "ember-composable-helpers/helpers/compact"], function (_exports, _compact) {
+;define("simplefolio-ember/helpers/compact", ["exports", "ember-composable-helpers/helpers/compact"], function (_exports, _compact) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -777,7 +777,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/compute", ["exports", "ember-composable-helpers/helpers/compute"], function (_exports, _compute) {
+;define("simplefolio-ember/helpers/compute", ["exports", "ember-composable-helpers/helpers/compute"], function (_exports, _compute) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -796,7 +796,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/contains", ["exports", "ember-composable-helpers/helpers/contains"], function (_exports, _contains) {
+;define("simplefolio-ember/helpers/contains", ["exports", "ember-composable-helpers/helpers/contains"], function (_exports, _contains) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -815,7 +815,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/dec", ["exports", "ember-composable-helpers/helpers/dec"], function (_exports, _dec) {
+;define("simplefolio-ember/helpers/dec", ["exports", "ember-composable-helpers/helpers/dec"], function (_exports, _dec) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -834,7 +834,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/drop", ["exports", "ember-composable-helpers/helpers/drop"], function (_exports, _drop) {
+;define("simplefolio-ember/helpers/drop", ["exports", "ember-composable-helpers/helpers/drop"], function (_exports, _drop) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -847,7 +847,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/eq", ["exports", "ember-truth-helpers/helpers/equal"], function (_exports, _equal) {
+;define("simplefolio-ember/helpers/eq", ["exports", "ember-truth-helpers/helpers/equal"], function (_exports, _equal) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -866,7 +866,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/filter-by", ["exports", "ember-composable-helpers/helpers/filter-by"], function (_exports, _filterBy) {
+;define("simplefolio-ember/helpers/filter-by", ["exports", "ember-composable-helpers/helpers/filter-by"], function (_exports, _filterBy) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -879,7 +879,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/filter", ["exports", "ember-composable-helpers/helpers/filter"], function (_exports, _filter) {
+;define("simplefolio-ember/helpers/filter", ["exports", "ember-composable-helpers/helpers/filter"], function (_exports, _filter) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -892,7 +892,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/find-by", ["exports", "ember-composable-helpers/helpers/find-by"], function (_exports, _findBy) {
+;define("simplefolio-ember/helpers/find-by", ["exports", "ember-composable-helpers/helpers/find-by"], function (_exports, _findBy) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -905,7 +905,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/flatten", ["exports", "ember-composable-helpers/helpers/flatten"], function (_exports, _flatten) {
+;define("simplefolio-ember/helpers/flatten", ["exports", "ember-composable-helpers/helpers/flatten"], function (_exports, _flatten) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -924,7 +924,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/group-by", ["exports", "ember-composable-helpers/helpers/group-by"], function (_exports, _groupBy) {
+;define("simplefolio-ember/helpers/group-by", ["exports", "ember-composable-helpers/helpers/group-by"], function (_exports, _groupBy) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -937,7 +937,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/gt", ["exports", "ember-truth-helpers/helpers/gt"], function (_exports, _gt) {
+;define("simplefolio-ember/helpers/gt", ["exports", "ember-truth-helpers/helpers/gt"], function (_exports, _gt) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -956,7 +956,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/gte", ["exports", "ember-truth-helpers/helpers/gte"], function (_exports, _gte) {
+;define("simplefolio-ember/helpers/gte", ["exports", "ember-truth-helpers/helpers/gte"], function (_exports, _gte) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -975,7 +975,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/has-next", ["exports", "ember-composable-helpers/helpers/has-next"], function (_exports, _hasNext) {
+;define("simplefolio-ember/helpers/has-next", ["exports", "ember-composable-helpers/helpers/has-next"], function (_exports, _hasNext) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -994,7 +994,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/has-previous", ["exports", "ember-composable-helpers/helpers/has-previous"], function (_exports, _hasPrevious) {
+;define("simplefolio-ember/helpers/has-previous", ["exports", "ember-composable-helpers/helpers/has-previous"], function (_exports, _hasPrevious) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1013,7 +1013,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/inc", ["exports", "ember-composable-helpers/helpers/inc"], function (_exports, _inc) {
+;define("simplefolio-ember/helpers/inc", ["exports", "ember-composable-helpers/helpers/inc"], function (_exports, _inc) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1032,7 +1032,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/intersect", ["exports", "ember-composable-helpers/helpers/intersect"], function (_exports, _intersect) {
+;define("simplefolio-ember/helpers/intersect", ["exports", "ember-composable-helpers/helpers/intersect"], function (_exports, _intersect) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1045,7 +1045,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/invoke", ["exports", "ember-composable-helpers/helpers/invoke"], function (_exports, _invoke) {
+;define("simplefolio-ember/helpers/invoke", ["exports", "ember-composable-helpers/helpers/invoke"], function (_exports, _invoke) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1064,7 +1064,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/is-array", ["exports", "ember-truth-helpers/helpers/is-array"], function (_exports, _isArray) {
+;define("simplefolio-ember/helpers/is-array", ["exports", "ember-truth-helpers/helpers/is-array"], function (_exports, _isArray) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1083,7 +1083,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/is-clipboard-supported", ["exports", "ember-cli-clipboard/helpers/is-clipboard-supported"], function (_exports, _isClipboardSupported) {
+;define("simplefolio-ember/helpers/is-clipboard-supported", ["exports", "ember-cli-clipboard/helpers/is-clipboard-supported"], function (_exports, _isClipboardSupported) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1102,7 +1102,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/is-empty", ["exports", "ember-truth-helpers/helpers/is-empty"], function (_exports, _isEmpty) {
+;define("simplefolio-ember/helpers/is-empty", ["exports", "ember-truth-helpers/helpers/is-empty"], function (_exports, _isEmpty) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1115,7 +1115,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/is-equal", ["exports", "ember-truth-helpers/helpers/is-equal"], function (_exports, _isEqual) {
+;define("simplefolio-ember/helpers/is-equal", ["exports", "ember-truth-helpers/helpers/is-equal"], function (_exports, _isEqual) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1134,7 +1134,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/join", ["exports", "ember-composable-helpers/helpers/join"], function (_exports, _join) {
+;define("simplefolio-ember/helpers/join", ["exports", "ember-composable-helpers/helpers/join"], function (_exports, _join) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1147,7 +1147,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/lt", ["exports", "ember-truth-helpers/helpers/lt"], function (_exports, _lt) {
+;define("simplefolio-ember/helpers/lt", ["exports", "ember-truth-helpers/helpers/lt"], function (_exports, _lt) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1166,7 +1166,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/lte", ["exports", "ember-truth-helpers/helpers/lte"], function (_exports, _lte) {
+;define("simplefolio-ember/helpers/lte", ["exports", "ember-truth-helpers/helpers/lte"], function (_exports, _lte) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1185,7 +1185,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/map-by", ["exports", "ember-composable-helpers/helpers/map-by"], function (_exports, _mapBy) {
+;define("simplefolio-ember/helpers/map-by", ["exports", "ember-composable-helpers/helpers/map-by"], function (_exports, _mapBy) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1198,7 +1198,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/map", ["exports", "ember-composable-helpers/helpers/map"], function (_exports, _map) {
+;define("simplefolio-ember/helpers/map", ["exports", "ember-composable-helpers/helpers/map"], function (_exports, _map) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1211,7 +1211,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/media", ["exports", "ember-responsive/helpers/media"], function (_exports, _media) {
+;define("simplefolio-ember/helpers/media", ["exports", "ember-responsive/helpers/media"], function (_exports, _media) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1230,7 +1230,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/next", ["exports", "ember-composable-helpers/helpers/next"], function (_exports, _next) {
+;define("simplefolio-ember/helpers/next", ["exports", "ember-composable-helpers/helpers/next"], function (_exports, _next) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1249,7 +1249,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/noop", ["exports", "ember-composable-helpers/helpers/noop"], function (_exports, _noop) {
+;define("simplefolio-ember/helpers/noop", ["exports", "ember-composable-helpers/helpers/noop"], function (_exports, _noop) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1268,7 +1268,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/not-eq", ["exports", "ember-truth-helpers/helpers/not-equal"], function (_exports, _notEqual) {
+;define("simplefolio-ember/helpers/not-eq", ["exports", "ember-truth-helpers/helpers/not-equal"], function (_exports, _notEqual) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1287,7 +1287,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/not", ["exports", "ember-truth-helpers/helpers/not"], function (_exports, _not) {
+;define("simplefolio-ember/helpers/not", ["exports", "ember-truth-helpers/helpers/not"], function (_exports, _not) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1306,7 +1306,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/object-at", ["exports", "ember-composable-helpers/helpers/object-at"], function (_exports, _objectAt) {
+;define("simplefolio-ember/helpers/object-at", ["exports", "ember-composable-helpers/helpers/object-at"], function (_exports, _objectAt) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1325,7 +1325,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/optional", ["exports", "ember-composable-helpers/helpers/optional"], function (_exports, _optional) {
+;define("simplefolio-ember/helpers/optional", ["exports", "ember-composable-helpers/helpers/optional"], function (_exports, _optional) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1344,7 +1344,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/or", ["exports", "ember-truth-helpers/helpers/or"], function (_exports, _or) {
+;define("simplefolio-ember/helpers/or", ["exports", "ember-truth-helpers/helpers/or"], function (_exports, _or) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1363,7 +1363,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/pipe-action", ["exports", "ember-composable-helpers/helpers/pipe-action"], function (_exports, _pipeAction) {
+;define("simplefolio-ember/helpers/pipe-action", ["exports", "ember-composable-helpers/helpers/pipe-action"], function (_exports, _pipeAction) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1376,7 +1376,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/pipe", ["exports", "ember-composable-helpers/helpers/pipe"], function (_exports, _pipe) {
+;define("simplefolio-ember/helpers/pipe", ["exports", "ember-composable-helpers/helpers/pipe"], function (_exports, _pipe) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1395,7 +1395,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/previous", ["exports", "ember-composable-helpers/helpers/previous"], function (_exports, _previous) {
+;define("simplefolio-ember/helpers/previous", ["exports", "ember-composable-helpers/helpers/previous"], function (_exports, _previous) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1414,7 +1414,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/queue", ["exports", "ember-composable-helpers/helpers/queue"], function (_exports, _queue) {
+;define("simplefolio-ember/helpers/queue", ["exports", "ember-composable-helpers/helpers/queue"], function (_exports, _queue) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1433,7 +1433,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/range", ["exports", "ember-composable-helpers/helpers/range"], function (_exports, _range) {
+;define("simplefolio-ember/helpers/range", ["exports", "ember-composable-helpers/helpers/range"], function (_exports, _range) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1452,7 +1452,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/reduce", ["exports", "ember-composable-helpers/helpers/reduce"], function (_exports, _reduce) {
+;define("simplefolio-ember/helpers/reduce", ["exports", "ember-composable-helpers/helpers/reduce"], function (_exports, _reduce) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1465,7 +1465,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/reject-by", ["exports", "ember-composable-helpers/helpers/reject-by"], function (_exports, _rejectBy) {
+;define("simplefolio-ember/helpers/reject-by", ["exports", "ember-composable-helpers/helpers/reject-by"], function (_exports, _rejectBy) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1478,7 +1478,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/repeat", ["exports", "ember-composable-helpers/helpers/repeat"], function (_exports, _repeat) {
+;define("simplefolio-ember/helpers/repeat", ["exports", "ember-composable-helpers/helpers/repeat"], function (_exports, _repeat) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1497,7 +1497,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/reverse", ["exports", "ember-composable-helpers/helpers/reverse"], function (_exports, _reverse) {
+;define("simplefolio-ember/helpers/reverse", ["exports", "ember-composable-helpers/helpers/reverse"], function (_exports, _reverse) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1510,7 +1510,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/shuffle", ["exports", "ember-composable-helpers/helpers/shuffle"], function (_exports, _shuffle) {
+;define("simplefolio-ember/helpers/shuffle", ["exports", "ember-composable-helpers/helpers/shuffle"], function (_exports, _shuffle) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1529,7 +1529,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/slice", ["exports", "ember-composable-helpers/helpers/slice"], function (_exports, _slice) {
+;define("simplefolio-ember/helpers/slice", ["exports", "ember-composable-helpers/helpers/slice"], function (_exports, _slice) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1542,7 +1542,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/sort-by", ["exports", "ember-composable-helpers/helpers/sort-by"], function (_exports, _sortBy) {
+;define("simplefolio-ember/helpers/sort-by", ["exports", "ember-composable-helpers/helpers/sort-by"], function (_exports, _sortBy) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1555,7 +1555,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/take", ["exports", "ember-composable-helpers/helpers/take"], function (_exports, _take) {
+;define("simplefolio-ember/helpers/take", ["exports", "ember-composable-helpers/helpers/take"], function (_exports, _take) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1568,7 +1568,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/toggle-action", ["exports", "ember-composable-helpers/helpers/toggle-action"], function (_exports, _toggleAction) {
+;define("simplefolio-ember/helpers/toggle-action", ["exports", "ember-composable-helpers/helpers/toggle-action"], function (_exports, _toggleAction) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1581,7 +1581,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/toggle", ["exports", "ember-composable-helpers/helpers/toggle"], function (_exports, _toggle) {
+;define("simplefolio-ember/helpers/toggle", ["exports", "ember-composable-helpers/helpers/toggle"], function (_exports, _toggle) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1600,7 +1600,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/union", ["exports", "ember-composable-helpers/helpers/union"], function (_exports, _union) {
+;define("simplefolio-ember/helpers/union", ["exports", "ember-composable-helpers/helpers/union"], function (_exports, _union) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1613,7 +1613,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/without", ["exports", "ember-composable-helpers/helpers/without"], function (_exports, _without) {
+;define("simplefolio-ember/helpers/without", ["exports", "ember-composable-helpers/helpers/without"], function (_exports, _without) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1632,7 +1632,7 @@
     }
   });
 });
-;define("adamclasic.github.io/helpers/xor", ["exports", "ember-truth-helpers/helpers/xor"], function (_exports, _xor) {
+;define("simplefolio-ember/helpers/xor", ["exports", "ember-truth-helpers/helpers/xor"], function (_exports, _xor) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1651,7 +1651,7 @@
     }
   });
 });
-;define("adamclasic.github.io/initializers/app-version", ["exports", "ember-cli-app-version/initializer-factory", "adamclasic.github.io/config/environment"], function (_exports, _initializerFactory, _environment) {
+;define("simplefolio-ember/initializers/app-version", ["exports", "ember-cli-app-version/initializer-factory", "simplefolio-ember/config/environment"], function (_exports, _initializerFactory, _environment) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1671,7 +1671,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/initializers/container-debug-adapter", ["exports", "ember-resolver/resolvers/classic/container-debug-adapter"], function (_exports, _containerDebugAdapter) {
+;define("simplefolio-ember/initializers/container-debug-adapter", ["exports", "ember-resolver/resolvers/classic/container-debug-adapter"], function (_exports, _containerDebugAdapter) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1690,7 +1690,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/initializers/ember-responsive-breakpoints", ["exports", "ember-responsive/initializers/responsive"], function (_exports, _responsive) {
+;define("simplefolio-ember/initializers/ember-responsive-breakpoints", ["exports", "ember-responsive/initializers/responsive"], function (_exports, _responsive) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1700,7 +1700,7 @@
   var _default = _responsive.default;
   _exports.default = _default;
 });
-;define("adamclasic.github.io/initializers/export-application-global", ["exports", "adamclasic.github.io/config/environment"], function (_exports, _environment) {
+;define("simplefolio-ember/initializers/export-application-global", ["exports", "simplefolio-ember/config/environment"], function (_exports, _environment) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1754,7 +1754,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/instance-initializers/axe-component", ["exports", "ember-a11y-testing/instance-initializers/axe-component"], function (_exports, _axeComponent) {
+;define("simplefolio-ember/instance-initializers/axe-component", ["exports", "ember-a11y-testing/instance-initializers/axe-component"], function (_exports, _axeComponent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1773,7 +1773,7 @@
     }
   });
 });
-;define("adamclasic.github.io/instance-initializers/ember-cli-tailwind", ["exports", "adamclasic.github.io/router"], function (_exports, _router) {
+;define("simplefolio-ember/instance-initializers/ember-cli-tailwind", ["exports", "simplefolio-ember/router"], function (_exports, _router) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1816,7 +1816,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/instance-initializers/violations-helper", ["exports", "ember-a11y-testing/instance-initializers/violations-helper"], function (_exports, _violationsHelper) {
+;define("simplefolio-ember/instance-initializers/violations-helper", ["exports", "ember-a11y-testing/instance-initializers/violations-helper"], function (_exports, _violationsHelper) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1835,7 +1835,7 @@
     }
   });
 });
-;define("adamclasic.github.io/modifiers/did-insert", ["exports", "@ember/render-modifiers/modifiers/did-insert"], function (_exports, _didInsert) {
+;define("simplefolio-ember/modifiers/did-insert", ["exports", "@ember/render-modifiers/modifiers/did-insert"], function (_exports, _didInsert) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1848,7 +1848,7 @@
     }
   });
 });
-;define("adamclasic.github.io/modifiers/did-update", ["exports", "@ember/render-modifiers/modifiers/did-update"], function (_exports, _didUpdate) {
+;define("simplefolio-ember/modifiers/did-update", ["exports", "@ember/render-modifiers/modifiers/did-update"], function (_exports, _didUpdate) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1861,7 +1861,7 @@
     }
   });
 });
-;define("adamclasic.github.io/modifiers/jumpscroll", ["exports", "ember-modifier", "jump.js"], function (_exports, _emberModifier, _jump) {
+;define("simplefolio-ember/modifiers/jumpscroll", ["exports", "ember-modifier", "jump.js"], function (_exports, _emberModifier, _jump) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1883,7 +1883,7 @@
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/modifiers/will-destroy", ["exports", "@ember/render-modifiers/modifiers/will-destroy"], function (_exports, _willDestroy) {
+;define("simplefolio-ember/modifiers/will-destroy", ["exports", "@ember/render-modifiers/modifiers/will-destroy"], function (_exports, _willDestroy) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1896,7 +1896,7 @@
     }
   });
 });
-;define("adamclasic.github.io/resolver", ["exports", "ember-resolver"], function (_exports, _emberResolver) {
+;define("simplefolio-ember/resolver", ["exports", "ember-resolver"], function (_exports, _emberResolver) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1906,7 +1906,7 @@
   var _default = _emberResolver.default;
   _exports.default = _default;
 });
-;define("adamclasic.github.io/router", ["exports", "adamclasic.github.io/config/environment"], function (_exports, _environment) {
+;define("simplefolio-ember/router", ["exports", "simplefolio-ember/config/environment"], function (_exports, _environment) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1930,7 +1930,7 @@
   _exports.default = Router;
   Router.map(function () {});
 });
-;define("adamclasic.github.io/services/etw-tailwind-styleguide", ["exports"], function (_exports) {
+;define("simplefolio-ember/services/etw-tailwind-styleguide", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1943,7 +1943,7 @@
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/services/media", ["exports", "ember-responsive/services/media"], function (_exports, _media) {
+;define("simplefolio-ember/services/media", ["exports", "ember-responsive/services/media"], function (_exports, _media) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1953,7 +1953,7 @@
   var _default = _media.default;
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/background-colors", ["exports", "adamclasic.github.io/tailwind/config/colors"], function (_exports, _colors) {
+;define("simplefolio-ember/tailwind/config/background-colors", ["exports", "simplefolio-ember/tailwind/config/colors"], function (_exports, _colors) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1977,7 +1977,7 @@
   var _default = _colors.default;
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/background-size", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/background-size", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2005,7 +2005,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/border-colors", ["exports", "adamclasic.github.io/tailwind/config/colors"], function (_exports, _colors) {
+;define("simplefolio-ember/tailwind/config/border-colors", ["exports", "simplefolio-ember/tailwind/config/colors"], function (_exports, _colors) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2036,7 +2036,7 @@
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/border-radius", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/border-radius", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2069,7 +2069,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/border-widths", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/border-widths", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2099,7 +2099,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/colors", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/colors", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2199,7 +2199,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/font-weights", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/font-weights", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2234,7 +2234,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/fonts", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/fonts", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2267,7 +2267,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/height", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/height", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2312,7 +2312,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/letter-spacing", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/letter-spacing", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2339,7 +2339,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/line-height", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/line-height", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2367,7 +2367,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/margin", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/margin", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2410,7 +2410,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/max-height", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/max-height", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2438,7 +2438,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/max-width", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/max-width", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2475,7 +2475,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/min-height", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/min-height", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2504,7 +2504,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/min-width", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/min-width", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2532,7 +2532,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/negative-margin", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/negative-margin", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2574,7 +2574,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/opacity", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/opacity", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2604,7 +2604,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/padding", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/padding", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2646,7 +2646,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/screens", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/screens", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2680,7 +2680,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/shadows", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/shadows", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2714,7 +2714,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/svg-fill", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/svg-fill", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2741,7 +2741,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/svg-stroke", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/svg-stroke", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2768,7 +2768,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/tailwind", ["exports", "tailwindcss/plugins/container", "adamclasic.github.io/tailwind/config/colors", "adamclasic.github.io/tailwind/config/screens", "adamclasic.github.io/tailwind/config/fonts", "adamclasic.github.io/tailwind/config/text-sizes", "adamclasic.github.io/tailwind/config/font-weights", "adamclasic.github.io/tailwind/config/line-height", "adamclasic.github.io/tailwind/config/letter-spacing", "adamclasic.github.io/tailwind/config/text-colors", "adamclasic.github.io/tailwind/config/background-colors", "adamclasic.github.io/tailwind/config/background-size", "adamclasic.github.io/tailwind/config/border-widths", "adamclasic.github.io/tailwind/config/border-colors", "adamclasic.github.io/tailwind/config/border-radius", "adamclasic.github.io/tailwind/config/width", "adamclasic.github.io/tailwind/config/height", "adamclasic.github.io/tailwind/config/min-width", "adamclasic.github.io/tailwind/config/min-height", "adamclasic.github.io/tailwind/config/max-width", "adamclasic.github.io/tailwind/config/max-height", "adamclasic.github.io/tailwind/config/padding", "adamclasic.github.io/tailwind/config/margin", "adamclasic.github.io/tailwind/config/negative-margin", "adamclasic.github.io/tailwind/config/shadows", "adamclasic.github.io/tailwind/config/z-index", "adamclasic.github.io/tailwind/config/opacity", "adamclasic.github.io/tailwind/config/svg-fill", "adamclasic.github.io/tailwind/config/svg-stroke"], function (_exports, _container, _colors, _screens, _fonts, _textSizes, _fontWeights, _lineHeight, _letterSpacing, _textColors, _backgroundColors, _backgroundSize, _borderWidths, _borderColors, _borderRadius, _width, _height, _minWidth, _minHeight, _maxWidth, _maxHeight, _padding, _margin, _negativeMargin, _shadows, _zIndex, _opacity, _svgFill, _svgStroke) {
+;define("simplefolio-ember/tailwind/config/tailwind", ["exports", "tailwindcss/plugins/container", "simplefolio-ember/tailwind/config/colors", "simplefolio-ember/tailwind/config/screens", "simplefolio-ember/tailwind/config/fonts", "simplefolio-ember/tailwind/config/text-sizes", "simplefolio-ember/tailwind/config/font-weights", "simplefolio-ember/tailwind/config/line-height", "simplefolio-ember/tailwind/config/letter-spacing", "simplefolio-ember/tailwind/config/text-colors", "simplefolio-ember/tailwind/config/background-colors", "simplefolio-ember/tailwind/config/background-size", "simplefolio-ember/tailwind/config/border-widths", "simplefolio-ember/tailwind/config/border-colors", "simplefolio-ember/tailwind/config/border-radius", "simplefolio-ember/tailwind/config/width", "simplefolio-ember/tailwind/config/height", "simplefolio-ember/tailwind/config/min-width", "simplefolio-ember/tailwind/config/min-height", "simplefolio-ember/tailwind/config/max-width", "simplefolio-ember/tailwind/config/max-height", "simplefolio-ember/tailwind/config/padding", "simplefolio-ember/tailwind/config/margin", "simplefolio-ember/tailwind/config/negative-margin", "simplefolio-ember/tailwind/config/shadows", "simplefolio-ember/tailwind/config/z-index", "simplefolio-ember/tailwind/config/opacity", "simplefolio-ember/tailwind/config/svg-fill", "simplefolio-ember/tailwind/config/svg-stroke"], function (_exports, _container, _colors, _screens, _fonts, _textSizes, _fontWeights, _lineHeight, _letterSpacing, _textColors, _backgroundColors, _backgroundSize, _borderWidths, _borderColors, _borderRadius, _width, _height, _minWidth, _minHeight, _maxWidth, _maxHeight, _padding, _margin, _negativeMargin, _shadows, _zIndex, _opacity, _svgFill, _svgStroke) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2910,7 +2910,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/text-colors", ["exports", "adamclasic.github.io/tailwind/config/colors"], function (_exports, _colors) {
+;define("simplefolio-ember/tailwind/config/text-colors", ["exports", "simplefolio-ember/tailwind/config/colors"], function (_exports, _colors) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2934,7 +2934,7 @@
   var _default = _colors.default;
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/text-sizes", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/text-sizes", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2983,7 +2983,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/width", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/width", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -3044,7 +3044,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/tailwind/config/z-index", ["exports"], function (_exports) {
+;define("simplefolio-ember/tailwind/config/z-index", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -3076,7 +3076,7 @@
   };
   _exports.default = _default;
 });
-;define("adamclasic.github.io/templates/application-tailwind", ["exports"], function (_exports) {
+;define("simplefolio-ember/templates/application-tailwind", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -3085,16 +3085,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "4nxS3haZ",
+    "id": "ve0T4ktc",
     "block": "{\"symbols\":[],\"statements\":[[7,\"div\",true],[10,\"class\",\"etw-px-4 etw-my-8 etw-max-w-3xl etw-mx-auto etw-font-sans\"],[8],[0,\"\\n  \"],[7,\"div\",true],[10,\"class\",\"etw-flex etw-mt-6\"],[8],[0,\"\\n    \"],[7,\"div\",true],[10,\"class\",\"etw-w-3/4 etw-pr-6\"],[8],[0,\"\\n      \"],[7,\"h1\",true],[10,\"class\",\"etw-pt-8 etw-text-3xl etw-font-bold\"],[8],[0,\"Your Tailwind styles\"],[9],[0,\"\\n      \"],[7,\"p\",true],[10,\"class\",\"etw-mt-3 etw-mb-4 etw-text-lg\"],[8],[0,\"A reference for every generated class in your app.\"],[9],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Border radius\",[28,\"array\",[\".rounded{-side?}{-size?}\"],null],[24,[\"moduleStyles\",\"borderRadius\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Borders\",[28,\"array\",[\".border{-side?}{-width?}\"],null],[24,[\"moduleStyles\",\"borderWidths\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Colors\",[28,\"array\",[\".text-{color}\",\".bg-{color}\",\".border-{color}\"],null],[24,[\"moduleStyles\",\"colors\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Font weights\",[28,\"array\",[\".font-{weight}\"],null],[24,[\"moduleStyles\",\"fontWeights\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Height\",[28,\"array\",[\".h-{size}\"],null],[24,[\"moduleStyles\",\"height\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Letter spacing\",[28,\"array\",[\".tracking-{size}\"],null],[24,[\"moduleStyles\",\"letterSpacing\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Line height\",[28,\"array\",[\".leading-{size}\"],null],[24,[\"moduleStyles\",\"lineHeight\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Margin\",[28,\"array\",[\".m{side?}-{size}\"],null],[24,[\"moduleStyles\",\"margin\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Max height\",[28,\"array\",[\".max-h-{size}\"],null],[24,[\"moduleStyles\",\"maxHeight\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Max width\",[28,\"array\",[\".max-w-{size}\"],null],[24,[\"moduleStyles\",\"maxWidth\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Min height\",[28,\"array\",[\".min-h-{size}\"],null],[24,[\"moduleStyles\",\"minHeight\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Min width\",[28,\"array\",[\".min-w-{size}\"],null],[24,[\"moduleStyles\",\"minWidth\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Negative margin\",[28,\"array\",[\".-m{side?}-{size}\"],null],[24,[\"moduleStyles\",\"negativeMargin\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Opacity\",[28,\"array\",[\".opacity-{name}\"],null],[24,[\"moduleStyles\",\"opacity\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Padding\",[28,\"array\",[\".p{side?}-{size}\"],null],[24,[\"moduleStyles\",\"padding\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Shadows\",[28,\"array\",[\".shadow-{size?}\"],null],[24,[\"moduleStyles\",\"shadows\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"SVG fill\",[28,\"array\",[\".fill-{name}\"],null],[24,[\"moduleStyles\",\"svgFill\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"SVG stroke\",[28,\"array\",[\".stroke-{name}\"],null],[24,[\"moduleStyles\",\"svgStroke\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Text sizes\",[28,\"array\",[\".text-{size}\"],null],[24,[\"moduleStyles\",\"textSizes\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Width\",[28,\"array\",[\".w-{size}\"],null],[24,[\"moduleStyles\",\"width\"]]]]],false],[0,\"\\n\\n      \"],[1,[28,\"etw/module-section\",null,[[\"title\",\"codeSnippets\",\"moduleStyles\"],[\"Z index\",[28,\"array\",[\".z-{index}\"],null],[24,[\"moduleStyles\",\"zIndex\"]]]]],false],[0,\"\\n\\n    \"],[9],[0,\"\\n\\n    \"],[7,\"div\",true],[10,\"class\",\"etw-w-1/4 etw-relative\"],[8],[0,\"\\n      \"],[1,[22,\"etw/module-style-detail\"],false],[0,\"\\n    \"],[9],[0,\"\\n  \"],[9],[0,\"\\n\"],[9],[0,\"\\n\"]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "adamclasic.github.io/templates/application-tailwind.hbs"
+      "moduleName": "simplefolio-ember/templates/application-tailwind.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/templates/application", ["exports"], function (_exports) {
+;define("simplefolio-ember/templates/application", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -3103,16 +3103,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "kCDtNV4R",
+    "id": "NG2OTk0Q",
     "block": "{\"symbols\":[\"social\",\"project\",\"paragraph\",\"@leftToBottom\",\"@rightToBottom\"],\"statements\":[[7,\"div\",true],[10,\"id\",\"top\"],[8],[9],[0,\"\\n\\n\"],[7,\"div\",true],[10,\"id\",\"welcome-section\"],[8],[0,\"\\n\\t\"],[7,\"div\",true],[10,\"class\",\"container\"],[8],[0,\"\\n\"],[0,\"\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"load-hidden\"]],[[\"@tagName\",\"@elementId\",\"@distance\",\"@duration\",\"@reset\",\"@delay\",\"@origin\"],[\"h1\",\"opening-text\",\"30px\",1000,true,500,[23,4,[]]]],{\"statements\":[[0,\"\\n\\t\\t\\tHi, my name is \"],[7,\"span\",true],[10,\"class\",\"text-color-main\"],[8],[0,\"Adam Allalou\"],[9],[0,\"\\n\\t\\t\\t\"],[7,\"span\",true],[10,\"class\",\"block\"],[8],[0,\"I'm a Web Developer.\"],[9],[0,\"\\n\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\"],[0,\"\\n\"],[0,\"\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"load-hidden\"]],[[\"@tagName\",\"@elementId\",\"@distance\",\"@duration\",\"@reset\",\"@delay\",\"@origin\"],[\"p\",\"opening-paragraph\",\"30px\",1000,true,1000,[23,4,[]]]],{\"statements\":[[0,\"\\n\\t\\t\\t\"],[7,\"a\",false],[12,\"class\",\"cta-btn cta-btn--hero\"],[12,\"href\",\"#about\"],[3,\"jumpscroll\"],[8],[0,\"Know more\"],[9],[0,\"\\n\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\t\"],[9],[0,\"\\n\"],[9],[0,\"\\n\"],[0,\"\\n\\n\"],[7,\"section\",true],[10,\"id\",\"about\"],[8],[0,\"\\n\\t\"],[7,\"div\",true],[10,\"class\",\"container\"],[8],[0,\"\\n\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"section-title\"]],[[\"@tagName\",\"@duration\",\"@delay\"],[\"h2\",1000,300]],{\"statements\":[[0,\"\\n\\t\\t\\tAbout me\\n\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\t\\t\\n\\t\\t\"],[7,\"div\",true],[10,\"class\",\"row about-wrapper\"],[8],[0,\"\\n\\t\\t\\t\"],[7,\"div\",true],[10,\"class\",\"col-md-6 col-sm-12\"],[8],[0,\"\\n\\t\\t\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"about-wrapper__image\"]],[[\"@distance\",\"@duration\"],[\"30px\",1000]],{\"statements\":[[0,\"\\n\"],[0,\"\\t\\t\\t\\t\\t\"],[7,\"img\",true],[10,\"class\",\"img-fluid rounded shadow-lg\"],[10,\"height\",\"auto\"],[10,\"width\",\"300px\"],[10,\"src\",\"assets/images/profile.png\"],[10,\"alt\",\"Profile\"],[8],[9],[0,\"\\n\"],[0,\"\\t\\t\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\t\\t\\t\"],[9],[0,\"\\n\\t\\t\\t\"],[7,\"div\",true],[10,\"class\",\"col-md-6 col-sm-12\"],[8],[0,\"\\n\\t\\t\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"about-wrapper__info\"]],[[\"@distance\",\"@duration\",\"@delay\",\"@origin\"],[\"30px\",1000,1000,[23,4,[]]]],{\"statements\":[[0,\"\\n\"],[0,\"\\t\\t\\t\\t\\t\"],[7,\"p\",true],[10,\"class\",\"mb-8 text-left\"],[8],[0,\"\\n\\t\\t\\t\\t\\t\\tHi, I’m Adam, a self-taught web developer currently looking for your next job opportunity. \\n\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\\t\\t\\t\\t\\t\"],[7,\"p\",true],[10,\"class\",\"mb-8 text-left\"],[8],[0,\"\\n\\t\\t\\t\\t\\t\\tI’m creative, analytical, and very passionate about web development. \\n\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\\t\\t\\t\\t\\t\"],[7,\"p\",true],[10,\"class\",\"mb-8 text-left\"],[8],[0,\"\\n\\t\\t\\t\\t\\t\\tI'm a maker at heart and in my free time, I like to acquire as many skills as possible,\\n\\t\\t\\t\\t\\t\\twhether it's learning a new programming language, learning a new language, cooking, or any other skill I can get the tools for.\\n\\n\"],[0,\"\\t\\t\\t\\t\\t\\t\"],[7,\"a\",true],[10,\"rel\",\"noopener noreferrer\"],[10,\"target\",\"_blank\"],[10,\"class\",\"mt-8 cta-btn cta-btn--resume\"],[10,\"href\",\"https://docs.google.com/document/d/1P4HB2ssS_gzPkA6td1DW1siZUqPklwSgSAYbojVtwMI/edit?usp=sharing!\"],[8],[0,\"\\n\\t\\t\\t\\t\\t\\t\\tView Resume\\n\\t\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\"],[0,\"\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\"],[0,\"\\t\\t\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\t\\t\\t\"],[9],[0,\"\\n\\t\\t\"],[9],[0,\"\\n\\t\"],[9],[0,\"\\n\"],[9],[0,\"\\n\"],[0,\"\\n\\n\"],[7,\"section\",true],[10,\"id\",\"projects\"],[8],[0,\"\\n\\t\"],[7,\"div\",true],[10,\"class\",\"container\"],[8],[0,\"\\n\"],[0,\"\\t\\t\"],[7,\"div\",true],[10,\"class\",\"project-wrapper\"],[8],[0,\"\\n\\t\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"section-title dark-blue-text\"]],[[\"@tagName\",\"@duration\",\"@delay\"],[\"h2\",1000,300]],{\"statements\":[[0,\"\\n\\t\\t\\t\\tProjects\\n\\t\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\n\"],[4,\"each\",[[23,0,[\"projects\"]]],null,{\"statements\":[[0,\"\\t\\t\\t\\t\"],[7,\"div\",true],[10,\"class\",\"row\"],[8],[0,\"\\n\\t\\t\\t\\t\\t\"],[7,\"div\",true],[10,\"class\",\"col-lg-4 col-sm-12\"],[8],[0,\"\\n\\t\\t\\t\\t\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"project-wrapper__text\"]],[[\"@distance\",\"@duration\",\"@delay\",\"@origin\"],[\"30px\",1000,500,[23,4,[]]]],{\"statements\":[[0,\"\\n\"],[0,\"\\t\\t\\t\\t\\t\\t\\t\"],[7,\"h3\",true],[10,\"class\",\"project-wrapper__text-title\"],[8],[1,[23,2,[\"name\"]],false],[9],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\\n\"],[4,\"if\",[[23,2,[\"description\"]]],null,{\"statements\":[[0,\"\\t\\t\\t\\t\\t\\t\\t\\t\"],[7,\"div\",true],[8],[0,\"\\n\"],[4,\"each\",[[23,2,[\"description\"]]],null,{\"statements\":[[0,\"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\"],[7,\"p\",true],[10,\"class\",\"mb-4\"],[8],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\"],[1,[23,3,[]],false],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\"]],\"parameters\":[3]},null],[0,\"\\t\\t\\t\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"if\",[[23,2,[\"url\"]]],null,{\"statements\":[[0,\"\\t\\t\\t\\t\\t\\t\\t\\t\"],[7,\"a\",true],[10,\"rel\",\"noopener noreferrer\"],[10,\"target\",\"_blank\"],[10,\"class\",\"cta-btn cta-btn--hero\"],[11,\"href\",[23,2,[\"url\"]]],[8],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tSee Live\\n\\t\\t\\t\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"if\",[[23,2,[\"repo\"]]],null,{\"statements\":[[0,\"\\t\\t\\t\\t\\t\\t\\t\\t\"],[7,\"a\",true],[10,\"rel\",\"noopener noreferrer\"],[10,\"target\",\"_blank\"],[10,\"class\",\"cta-btn text-color-main\"],[11,\"href\",[23,2,[\"repo\"]]],[8],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tSource Code\\n\\t\\t\\t\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\t\\t\\t\\t\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\\t\\t\\t\\t\\t\"],[7,\"div\",true],[10,\"class\",\"col-lg-8 col-sm-12\"],[8],[0,\"\\n\\t\\t\\t\\t\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"project-wrapper__image\"]],[[\"@distance\",\"@duration\",\"@delay\",\"@origin\"],[\"30px\",1000,1000,[23,5,[]]]],{\"statements\":[[0,\"\\n\"],[4,\"if\",[[23,2,[\"url\"]]],null,{\"statements\":[[0,\"\\t\\t\\t\\t\\t\\t\\t\\t\"],[7,\"a\",true],[11,\"href\",[23,2,[\"url\"]]],[10,\"rel\",\"noopener noreferrer\"],[10,\"target\",\"_blank\"],[8],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\"],[5,\"tilt-element\",[[12,\"class\",\"thumbnail rounded\"]],[[\"@max\",\"@glare\",\"@max-glare\"],[7,true,0.5]],{\"statements\":[[0,\"\\n\"],[0,\"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\"],[7,\"img\",true],[10,\"class\",\"img-fluid\"],[11,\"src\",[23,2,[\"thumbnail\",\"image\"]]],[11,\"alt\",[23,2,[\"thumbnail\",\"alt\"]]],[8],[9],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"\\t\\t\\t\\t\\t\\t\\t\\t\"],[5,\"tilt-element\",[[12,\"class\",\"thumbnail rounded\"]],[[\"@max\",\"@glare\",\"@max-glare\"],[7,true,0.5]],{\"statements\":[[0,\"\\n\"],[0,\"\\t\\t\\t\\t\\t\\t\\t\\t\\t\"],[7,\"img\",true],[10,\"class\",\"img-fluid\"],[11,\"src\",[23,2,[\"thumbnail\",\"image\"]]],[11,\"alt\",[23,2,[\"thumbnail\",\"alt\"]]],[8],[9],[0,\"\\n\\t\\t\\t\\t\\t\\t\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\"]],\"parameters\":[]}],[0,\"\\t\\t\\t\\t\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\\t\\t\\t\\t\"],[9],[0,\"\\n\"]],\"parameters\":[2]},null],[0,\"\\t\\t\"],[9],[0,\"\\n\"],[0,\"\\t\"],[9],[0,\"\\n\"],[9],[0,\"\\n\"],[0,\"\\n\\n\"],[7,\"section\",true],[10,\"id\",\"contact\"],[8],[0,\"\\n\\t\"],[7,\"div\",true],[10,\"class\",\"container\"],[8],[0,\"\\n\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"section-title\"]],[[\"@tagName\",\"@duration\",\"@delay\"],[\"h2\",1000,300]],{\"statements\":[[0,\"\\n\\t\\t\\tContact\\n\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\t\\t\"],[5,\"scroll-reveal\",[[12,\"class\",\"contact-wrapper\"]],[[\"@distance\",\"@duration\",\"@delay\"],[\"30px\",1000,800]],{\"statements\":[[0,\"\\n\"],[0,\"\\t\\t\\t\"],[7,\"p\",true],[10,\"class\",\"mb-4 contact-wrapper__text\"],[8],[0,\"\\n\\t\\t\\t\\t[Put here your call to action]\\n\\t\\t\\t\"],[9],[0,\"\\n\"],[0,\"\\t\\t\\t\"],[7,\"a\",true],[10,\"rel\",\"noopener noreferrer\"],[10,\"target\",\"_blank\"],[10,\"class\",\"cta-btn cta-btn--resume\"],[10,\"href\",\"mailto:example@email.com\"],[8],[0,\"\\n\\t\\t\\t\\tButton\\n\\t\\t\\t\"],[9],[0,\"\\n\\t\\t\"]],\"parameters\":[]}],[0,\"\\n\\t\"],[9],[0,\"\\n\"],[9],[0,\"\\n\"],[0,\"\\n\\n\"],[7,\"footer\",true],[10,\"class\",\"footer navbar-static-bottom\"],[8],[0,\"\\n\\t\"],[7,\"div\",true],[10,\"class\",\"container\"],[8],[0,\"\\n\\t\\t\"],[7,\"a\",false],[12,\"class\",\"back-to-top\"],[12,\"href\",\"#top\"],[3,\"jumpscroll\"],[8],[0,\"\\n\\t\\t\\t\"],[7,\"span\",true],[10,\"class\",\"sr-only\"],[8],[0,\"Back to top\"],[9],[0,\"\\n\\t\\t\\t\"],[1,[28,\"fa-icon\",[\"angle-up\"],[[\"class\",\"prefix\",\"size\"],[\"pointer-events-none\",\"fas\",\"2x\"]]],false],[0,\"\\n\\t\\t\"],[9],[0,\"\\n\\n\"],[4,\"if\",[[23,0,[\"socials\"]]],null,{\"statements\":[[0,\"\\t\\t\\t\"],[7,\"div\",true],[10,\"class\",\"social-links\"],[8],[0,\"\\n\"],[4,\"each\",[[23,0,[\"socials\"]]],null,{\"statements\":[[0,\"\\t\\t\\t\\t\\t\"],[7,\"a\",true],[11,\"href\",[23,1,[\"url\"]]],[10,\"rel\",\"noopener noreferrer\"],[10,\"target\",\"_blank\"],[11,\"aria-label\",[29,[\"Follow me on \",[23,1,[\"name\"]]]]],[8],[0,\"\\n\\t\\t\\t\\t\\t\\t\"],[1,[28,\"fa-icon\",[[23,1,[\"name\"]]],[[\"class\",\"prefix\",\"aria-label\"],[\"fa-inverse pointer-events-none\",\"fab\",[23,1,[\"name\"]]]]],false],[0,\"\\n\\t\\t\\t\\t\\t\"],[9],[0,\"\\n\"]],\"parameters\":[1]},null],[0,\"\\t\\t\\t\"],[9],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n\\t\\t\"],[7,\"hr\",true],[8],[9],[0,\"\\n\\n\"],[0,\"\\t\\t\"],[7,\"p\",true],[10,\"class\",\"footer__text\"],[8],[0,\"\\n\\t\\t\\t© 2020 - Developed by\\n\\t\\t\\t\"],[7,\"a\",true],[10,\"href\",\"https://github.com/sernadesigns\"],[10,\"rel\",\"noopener noreferrer\"],[10,\"target\",\"_blank\"],[8],[0,\"\\n\\t\\t\\t\\tAdam Allalou\\n\\t\\t\\t\"],[9],[0,\"\\n\\t\\t\"],[9],[0,\"\\n\\t\"],[9],[0,\"\\n\"],[9],[0,\"\\n\"]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "adamclasic.github.io/templates/application.hbs"
+      "moduleName": "simplefolio-ember/templates/application.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/templates/components/etw/module-section", ["exports"], function (_exports) {
+;define("simplefolio-ember/templates/components/etw/module-section", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -3121,16 +3121,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "x83dwqeP",
+    "id": "89a5NrtG",
     "block": "{\"symbols\":[\"moduleStyle\",\"snippet\"],\"statements\":[[7,\"section\",true],[8],[0,\"\\n  \"],[7,\"h2\",true],[10,\"class\",\"etw-pt-8 etw-mb-6 etw-text-lg etw-font-bold\"],[8],[1,[22,\"title\"],false],[9],[0,\"\\n\\n  \"],[7,\"ul\",true],[10,\"class\",\"etw-list-reset etw-leading-normal\"],[8],[0,\"\\n\"],[4,\"each\",[[24,[\"codeSnippets\"]]],null,{\"statements\":[[0,\"      \"],[7,\"li\",true],[8],[7,\"code\",true],[8],[1,[23,2,[]],false],[9],[9],[0,\"\\n\"]],\"parameters\":[2]},null],[0,\"  \"],[9],[0,\"\\n\\n  \"],[7,\"div\",true],[10,\"class\",\"etw-mt-8 etw-flex etw-flex-wrap\"],[8],[0,\"\\n\"],[4,\"each\",[[24,[\"moduleStyles\"]]],null,{\"statements\":[[0,\"      \"],[1,[28,\"etw/module-style-example\",null,[[\"moduleStyle\"],[[23,1,[]]]]],false],[0,\"\\n\"]],\"parameters\":[1]},null],[0,\"  \"],[9],[0,\"\\n\"],[9],[0,\"\\n\"]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "adamclasic.github.io/templates/components/etw/module-section.hbs"
+      "moduleName": "simplefolio-ember/templates/components/etw/module-section.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/templates/components/etw/module-style-detail", ["exports"], function (_exports) {
+;define("simplefolio-ember/templates/components/etw/module-style-detail", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -3139,16 +3139,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "ZDg1sNXV",
+    "id": "DtRzNqTq",
     "block": "{\"symbols\":[\"style\",\"state\",\"breakpoint\"],\"statements\":[[7,\"div\",true],[10,\"class\",\"etw-shadow-lg etw-fixed etw-mr-4 etw-px-4 etw-pt-4 etw-pb-14 etw-bg-white etw-w-64 etw-mt-8 overflow-y-auto etw-h-screen\"],[8],[0,\"\\n  \"],[7,\"h3\",true],[8],[0,\"Detail\"],[9],[0,\"\\n\\n\"],[4,\"if\",[[24,[\"moduleStyle\"]]],null,{\"statements\":[[0,\"\\n    \"],[7,\"div\",true],[10,\"class\",\"etw-my-8\"],[8],[0,\"\\n      \"],[1,[28,\"etw/module-style-example\",null,[[\"moduleStyle\"],[[24,[\"moduleStyle\"]]]]],false],[0,\"\\n    \"],[9],[0,\"\\n\\n    \"],[7,\"div\",true],[10,\"class\",\"etw-mt-4\"],[8],[0,\"\\n      \"],[7,\"h4\",true],[10,\"class\",\"etw-inline-block etw-pr-2\"],[8],[0,\"Responsive: \"],[9],[0,\"\\n      \"],[7,\"div\",true],[10,\"class\",\"etw-mt-2 etw-text-sm etw-inline-block\"],[8],[0,\"\\n\"],[4,\"each\",[[28,\"array\",[\"all\",\"sm\",\"md\",\"lg\",\"xl\"],null]],null,{\"statements\":[[0,\"          \"],[7,\"a\",false],[12,\"href\",\"#\"],[12,\"class\",[29,[\"\\n              etw-no-underline\\n              etw-text-black\\n              etw-pr-2\\n              \",[28,\"if\",[[28,\"eq\",[[24,[\"activeResponsiveClass\"]],[23,3,[]]],null],\"etw-opacity-100\",\"etw-opacity-25\"],null],\"\\n            \"]]],[3,\"action\",[[23,0,[]],[28,\"mut\",[[24,[\"activeResponsiveClass\"]]],null],[23,3,[]]]],[8],[0,\"\\n            \"],[1,[23,3,[]],false],[0,\"\\n          \"],[9],[0,\"\\n\"]],\"parameters\":[3]},null],[0,\"      \"],[9],[0,\"\\n    \"],[9],[0,\"\\n\\n    \"],[7,\"div\",true],[10,\"class\",\"etw-mt-4\"],[8],[0,\"\\n      \"],[7,\"h4\",true],[10,\"class\",\"etw-inline-block etw-pr-2\"],[8],[0,\"State: \"],[9],[0,\"\\n      \"],[7,\"div\",true],[10,\"class\",\"etw-mt-2 etw-text-sm etw-inline-block\"],[8],[0,\"\\n\"],[4,\"each\",[[28,\"array\",[\"none\",\"hover\",\"focus\"],null]],null,{\"statements\":[[0,\"          \"],[7,\"a\",false],[12,\"href\",\"#\"],[12,\"class\",[29,[\"\\n              etw-no-underline\\n              etw-text-black\\n              etw-pr-2\\n              \",[28,\"if\",[[28,\"eq\",[[24,[\"activeState\"]],[23,2,[]]],null],\"etw-opacity-100\",\"etw-opacity-25\"],null],\"\\n            \"]]],[3,\"action\",[[23,0,[]],[28,\"mut\",[[24,[\"activeState\"]]],null],[23,2,[]]]],[8],[0,\"\\n            \"],[1,[23,2,[]],false],[0,\"\\n          \"],[9],[0,\"\\n\"]],\"parameters\":[2]},null],[0,\"      \"],[9],[0,\"\\n    \"],[9],[0,\"\\n\\n    \"],[7,\"div\",true],[10,\"class\",\"etw-mt-8 etw-mb-4\"],[8],[0,\"\\n      \"],[7,\"p\",true],[10,\"class\",\"etw-text-right etw-text-xs etw-opacity-50\"],[8],[0,\"\\n\"],[4,\"if\",[[24,[\"highlightedStyle\"]]],null,{\"statements\":[[0,\"          Copied!\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"          Click to copy\\n\"]],\"parameters\":[]}],[0,\"      \"],[9],[0,\"\\n\\n      \"],[7,\"ul\",true],[10,\"class\",\"etw-mt-3 etw-list-reset\"],[8],[0,\"\\n\"],[4,\"each\",[[24,[\"detailStyles\"]]],null,{\"statements\":[[0,\"          \"],[7,\"li\",true],[10,\"class\",\"etw-mt-4\"],[8],[0,\"\\n\"],[4,\"copy-button\",null,[[\"class\",\"clipboardText\",\"title\",\"success\"],[[28,\"concat\",[\"etw-bg-grey-light etw-opacity-75 hover:etw-opacity-100 \",\"etw-px-1 etw-py-2 etw-w-full etw-text-left etw-transition \",[28,\"if\",[[28,\"eq\",[[24,[\"highlightedStyle\"]],[23,1,[]]],null],\"etw-bg-green etw-text-white\"],null]],null],[23,1,[]],\"Copy\",[28,\"action\",[[23,0,[]],\"highlightStyle\",[23,1,[]]],null]]],{\"statements\":[[0,\"              \"],[7,\"code\",true],[8],[0,\".\"],[1,[23,1,[]],false],[9],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"          \"],[9],[0,\"\\n\"]],\"parameters\":[1]},null],[0,\"      \"],[9],[0,\"\\n    \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"\\n    \"],[7,\"p\",true],[10,\"class\",\"etw-mt-4 etw-text-grey etw-italic\"],[8],[0,\"Select a module for more detail.\"],[9],[0,\"\\n\\n\"]],\"parameters\":[]}],[0,\"\\n\"],[9],[0,\"\\n\"]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "adamclasic.github.io/templates/components/etw/module-style-detail.hbs"
+      "moduleName": "simplefolio-ember/templates/components/etw/module-style-detail.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/templates/components/etw/module-style-example", ["exports"], function (_exports) {
+;define("simplefolio-ember/templates/components/etw/module-style-example", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -3157,16 +3157,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "zY+HHESz",
+    "id": "Rav7EQS3",
     "block": "{\"symbols\":[],\"statements\":[[7,\"a\",false],[12,\"class\",\"etw-mb-8 etw-w-1/5 etw-p-2\"],[3,\"action\",[[23,0,[]],\"selectModuleStyle\"]],[8],[0,\"\\n  \"],[7,\"div\",true],[10,\"class\",\"etw-text-center etw-m-4 etw-text-sm \"],[8],[0,\"\\n    \"],[7,\"div\",true],[10,\"class\",\"etw-text-center etw-m-4 etw-text-sm \"],[8],[0,\"\\n\\n\"],[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"border-radius\"],null]],null,{\"statements\":[[0,\"\\n        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24 etw-border\\n          etw-border-solid etw-border-grey\\n          etw-bg-grey-lighter\\n          \",[24,[\"classesForModuleStyle\",\"0\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"border-widths\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24\\n          etw-border-red etw-bg-grey-lighter etw-border-solid\\n          \",[24,[\"classesForModuleStyle\",\"0\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"colors\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"etw-marginx-auto etw-w-full etw-h-24 bg-\",[24,[\"moduleStyle\",\"name\"]]]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"font-weights\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"p\",true],[11,\"class\",[29,[\"font-\",[24,[\"moduleStyle\",\"name\"]]]]],[8],[0,\"\\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit.\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"height\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24\\n          etw-border etw-border-solid etw-border-grey\\n          etw-bg-grey-lighter\\n          \",[24,[\"classesForModuleStyle\",\"0\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"letter-spacing\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"p\",true],[11,\"class\",[29,[\"text-left tracking-\",[24,[\"moduleStyle\",\"name\"]]]]],[8],[0,\"\\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"line-height\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"p\",true],[11,\"class\",[29,[\"text-left leading-\",[24,[\"moduleStyle\",\"name\"]]]]],[8],[0,\"\\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"margin\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"etw-bg-red etw-w-24 etw-mx-auto etw-border-t etw-border-solid \",[28,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"name\"]],\"auto\"],null],\"\",\"etw-border-transparent\"],null]]]],[8],[0,\"\\n          \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n            etw-mx-auto etw-w-24 etw-h-24 etw-border\\n             etw-bg-grey-lighter\\n            mt-\",[24,[\"moduleStyle\",\"name\"]],\"\\n          \"]]],[8],[9],[0,\"\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"max-height\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24 etw-bg-grey-lighter\\n          etw-border etw-border-solid etw-border-grey\\n          max-h-\",[24,[\"moduleStyle\",\"name\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"max-width\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24 etw-bg-grey-lighter\\n          etw-border etw-border-solid etw-border-grey\\n          max-w-\",[24,[\"moduleStyle\",\"name\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"min-height\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24 etw-bg-grey-lighter\\n          etw-border etw-border-solid etw-border-grey\\n          min-h-\",[24,[\"moduleStyle\",\"name\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"min-width\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24 etw-bg-grey-lighter\\n          etw-border etw-border-solid etw-border-grey\\n          min-w-\",[24,[\"moduleStyle\",\"name\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"negative-margin\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[10,\"class\",\"etw-mb-8 etw-bg-red etw-px-4 etw-pb-4 etw-mx-auto etw-h-32 etw-relative\"],[8],[0,\"\\n          \"],[7,\"div\",true],[10,\"class\",\"etw-absolute etw-pin-x\"],[8],[0,\"\\n            \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n            etw-mx-auto etw-w-24 etw-h-24 etw-border\\n            etw-bg-grey-lighter etw-shadow-lg\\n            -mt-\",[24,[\"moduleStyle\",\"name\"]],\"\\n            \"]]],[8],[9],[0,\"\\n          \"],[9],[0,\"\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"opacity\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24 etw-border\\n          etw-border-grey etw-bg-grey-lighter\\n          opacity-\",[24,[\"moduleStyle\",\"name\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"padding\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[10,\"class\",\"etw-bg-red etw-w-24 etw-mx-auto\"],[8],[0,\"\\n          \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n            etw-mx-auto etw-w-24 etw-h-24 etw-border\\n             etw-bg-grey-lighter\\n            pt-\",[24,[\"moduleStyle\",\"name\"]],\"\\n          \"]]],[8],[0,\"\\n            \"],[7,\"p\",true],[10,\"class\",\"etw-text-grey-darker\"],[8],[0,\"Lorem\"],[9],[0,\"\\n          \"],[9],[0,\"\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"shadows\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24 etw-bg-white\\n          \",[24,[\"classesForModuleStyle\",\"0\"]],\"\\n        \"]]],[8],[0,\"\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"svg-fill\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[10,\"class\",\"etw-bg-grey-lighter etw-text-red etw-py-4\"],[8],[0,\"\\n          \"],[7,\"svg\",true],[10,\"class\",\"fill-current inline-block h-12 w-12\"],[10,\"xmlns\",\"http://www.w3.org/2000/svg\",\"http://www.w3.org/2000/xmlns/\"],[10,\"viewBox\",\"0 0 20 20\"],[8],[0,\"\\n            \"],[7,\"path\",true],[10,\"d\",\"M18 9.87V20H2V9.87a4.25 4.25 0 0 0 3-.38V14h10V9.5a4.26 4.26 0 0 0 3 .37zM3 0h4l-.67 6.03A3.43 3.43 0 0 1 3 9C1.34 9 .42 7.73.95 6.15L3 0zm5 0h4l.7 6.3c.17 1.5-.91 2.7-2.42 2.7h-.56A2.38 2.38 0 0 1 7.3 6.3L8 0zm5 0h4l2.05 6.15C19.58 7.73 18.65 9 17 9a3.42 3.42 0 0 1-3.33-2.97L13 0z\"],[8],[9],[0,\"\\n          \"],[9],[0,\"\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"svg-stroke\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[10,\"class\",\"etw-bg-grey-lighter etw-text-red etw-py-4\"],[8],[0,\"\\n          \"],[7,\"svg\",true],[10,\"class\",\"stroke-current inline-block h-12 w-12\"],[10,\"viewBox\",\"0 0 24 24\"],[10,\"xmlns\",\"http://www.w3.org/2000/svg\",\"http://www.w3.org/2000/xmlns/\"],[10,\"fill\",\"none\"],[10,\"stroke-width\",\"2\"],[10,\"stroke-linecap\",\"round\"],[10,\"stroke-linejoin\",\"round\"],[8],[0,\"\\n              \"],[7,\"circle\",true],[10,\"cx\",\"8\"],[10,\"cy\",\"21\"],[10,\"r\",\"2\"],[8],[9],[0,\"\\n              \"],[7,\"circle\",true],[10,\"cx\",\"20\"],[10,\"cy\",\"21\"],[10,\"r\",\"2\"],[8],[9],[0,\"\\n              \"],[7,\"path\",true],[10,\"d\",\"M5.67 6H23l-1.68 8.39a2 2 0 0 1-2 1.61H8.75a2 2 0 0 1-2-1.74L5.23 2.74A2 2 0 0 0 3.25 1H1\"],[8],[9],[0,\"\\n          \"],[9],[0,\"\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"text-sizes\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"p\",true],[11,\"class\",[29,[\"text-left text-\",[24,[\"moduleStyle\",\"name\"]]]]],[8],[0,\"\\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit.\\n        \"],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"width\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24 etw-border\\n          etw-border-grey etw-bg-grey-lighter\\n          \",[24,[\"classesForModuleStyle\",\"0\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[28,\"eq\",[[24,[\"moduleStyle\",\"module\"]],\"z-index\"],null]],null,{\"statements\":[[0,\"        \"],[7,\"div\",true],[11,\"class\",[29,[\"\\n          etw-mx-auto etw-w-24 etw-h-24 etw-border\\n          etw-border-grey etw-bg-grey-lighter\\n          \",[24,[\"classesForModuleStyle\",\"0\"]],\"\\n        \"]]],[8],[9],[0,\"\\n\\n      \"]],\"parameters\":[]},null]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}],[0,\"\\n      \"],[7,\"div\",true],[10,\"class\",\"etw-mt-3 etw-leading-normal\"],[8],[0,\"\\n        \"],[7,\"p\",true],[8],[1,[24,[\"moduleStyle\",\"name\"]],false],[9],[0,\"\\n        \"],[7,\"p\",true],[10,\"class\",\"etw-opacity-50\"],[8],[1,[24,[\"moduleStyle\",\"value\"]],false],[9],[0,\"\\n      \"],[9],[0,\"\\n    \"],[9],[0,\"\\n  \"],[9],[0,\"\\n\"],[9],[0,\"\\n\"]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "adamclasic.github.io/templates/components/etw/module-style-example.hbs"
+      "moduleName": "simplefolio-ember/templates/components/etw/module-style-example.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("adamclasic.github.io/utils/data", ["exports"], function (_exports) {
+;define("simplefolio-ember/utils/data", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -3234,7 +3234,7 @@
 ;define('simplefolio-ember/config/environment', [], function() {
   
           var exports = {
-            'default': {"modulePrefix":"simplefolio-ember","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false},"_APPLICATION_TEMPLATE_WRAPPER":false,"_DEFAULT_ASYNC_OBSERVERS":true,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"APP":{"name":"adamclasic.github.io","version":"1.0.0+27228245"},"fontawesome":{"icons":{"free-brands-svg-icons":["twitter","codepen","linkedin","github"],"free-solid-svg-icons":["angle-up"]}},"ember-a11y-testing":{"componentOptions":{"turnAuditOff":true}},"exportApplicationGlobal":true}
+            'default': {"modulePrefix":"simplefolio-ember","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false},"_APPLICATION_TEMPLATE_WRAPPER":false,"_DEFAULT_ASYNC_OBSERVERS":true,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"APP":{"name":"simplefolio-ember","version":"1.0.0+91c65d55"},"fontawesome":{"icons":{"free-brands-svg-icons":["twitter","codepen","linkedin","github"],"free-solid-svg-icons":["angle-up"]}},"ember-a11y-testing":{"componentOptions":{"turnAuditOff":true}},"exportApplicationGlobal":true}
           };
           Object.defineProperty(exports, '__esModule', {value: true});
           return exports;
@@ -3243,7 +3243,7 @@
 
 ;
           if (!runningTests) {
-            require("simplefolio-ember/app")["default"].create({"name":"adamclasic.github.io","version":"1.0.0+27228245"});
+            require("simplefolio-ember/app")["default"].create({"name":"simplefolio-ember","version":"1.0.0+91c65d55"});
           }
         
-//# sourceMappingURL=adamclasic.github.io.map
+//# sourceMappingURL=simplefolio-ember.map

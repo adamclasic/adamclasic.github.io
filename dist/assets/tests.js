@@ -1,6 +1,6 @@
 'use strict';
 
-define("adamclasic.github.io/tests/acceptance/application-test", ["qunit", "@ember/test-helpers", "ember-qunit"], function (_qunit, _testHelpers, _emberQunit) {
+define("simplefolio-ember/tests/acceptance/application-test", ["qunit", "@ember/test-helpers", "ember-qunit"], function (_qunit, _testHelpers, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Acceptance | application', function (hooks) {
@@ -11,7 +11,7 @@ define("adamclasic.github.io/tests/acceptance/application-test", ["qunit", "@emb
     });
   });
 });
-define("adamclasic.github.io/tests/helpers/ember-cli-clipboard", ["exports"], function (_exports) {
+define("simplefolio-ember/tests/helpers/ember-cli-clipboard", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -125,7 +125,7 @@ define("adamclasic.github.io/tests/helpers/ember-cli-clipboard", ["exports"], fu
     });
   }
 });
-define("adamclasic.github.io/tests/integration/components/scroll-reveal-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
+define("simplefolio-ember/tests/integration/components/scroll-reveal-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
   "use strict";
 
   (0, _qunit.module)('Integration | Component | scroll-reveal', function (hooks) {
@@ -161,7 +161,7 @@ define("adamclasic.github.io/tests/integration/components/scroll-reveal-test", [
     });
   });
 });
-define("adamclasic.github.io/tests/integration/components/tilt-element-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
+define("simplefolio-ember/tests/integration/components/tilt-element-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
   "use strict";
 
   (0, _qunit.module)('Integration | Component | tilt-element', function (hooks) {
@@ -197,7 +197,7 @@ define("adamclasic.github.io/tests/integration/components/tilt-element-test", ["
     });
   });
 });
-define("adamclasic.github.io/tests/integration/modifiers/jumpscroll-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
+define("simplefolio-ember/tests/integration/modifiers/jumpscroll-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
   "use strict";
 
   (0, _qunit.module)('Integration | Modifier | jumpscroll', function (hooks) {
@@ -217,7 +217,7 @@ define("adamclasic.github.io/tests/integration/modifiers/jumpscroll-test", ["qun
     });
   });
 });
-define("adamclasic.github.io/tests/lint/app.lint-test", [], function () {
+define("simplefolio-ember/tests/lint/app.lint-test", [], function () {
   "use strict";
 
   QUnit.module('ESLint | app');
@@ -370,16 +370,16 @@ define("adamclasic.github.io/tests/lint/app.lint-test", [], function () {
     assert.ok(true, 'utils/data.js should pass ESLint\n\n');
   });
 });
-define("adamclasic.github.io/tests/lint/templates.template.lint-test", [], function () {
+define("simplefolio-ember/tests/lint/templates.template.lint-test", [], function () {
   "use strict";
 
   QUnit.module('TemplateLint');
-  QUnit.test('adamclasic.github.io/templates/application.hbs', function (assert) {
+  QUnit.test('simplefolio-ember/templates/application.hbs', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'adamclasic.github.io/templates/application.hbs should pass TemplateLint.\n\n');
+    assert.ok(true, 'simplefolio-ember/templates/application.hbs should pass TemplateLint.\n\n');
   });
 });
-define("adamclasic.github.io/tests/lint/tests.lint-test", [], function () {
+define("simplefolio-ember/tests/lint/tests.lint-test", [], function () {
   "use strict";
 
   QUnit.module('ESLint | tests');
@@ -408,13 +408,13 @@ define("adamclasic.github.io/tests/lint/tests.lint-test", [], function () {
     assert.ok(true, 'unit/controllers/application-test.js should pass ESLint\n\n');
   });
 });
-define("adamclasic.github.io/tests/test-helper", ["adamclasic.github.io/app", "adamclasic.github.io/config/environment", "@ember/test-helpers", "ember-qunit"], function (_app, _environment, _testHelpers, _emberQunit) {
+define("simplefolio-ember/tests/test-helper", ["simplefolio-ember/app", "simplefolio-ember/config/environment", "@ember/test-helpers", "ember-qunit"], function (_app, _environment, _testHelpers, _emberQunit) {
   "use strict";
 
   (0, _testHelpers.setApplication)(_app.default.create(_environment.default.APP));
   (0, _emberQunit.start)();
 });
-define("adamclasic.github.io/tests/unit/controllers/application-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("simplefolio-ember/tests/unit/controllers/application-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Controller | application', function (hooks) {
@@ -429,7 +429,7 @@ define("adamclasic.github.io/tests/unit/controllers/application-test", ["qunit",
 define('simplefolio-ember/config/environment', [], function() {
   
           var exports = {
-            'default': {"modulePrefix":"simplefolio-ember","environment":"test","rootURL":"/","locationType":"none","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false},"_APPLICATION_TEMPLATE_WRAPPER":false,"_DEFAULT_ASYNC_OBSERVERS":true,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"APP":{"LOG_ACTIVE_GENERATION":false,"LOG_VIEW_LOOKUPS":false,"rootElement":"#ember-testing","autoboot":false,"name":"adamclasic.github.io","version":"1.0.0+27228245"},"fontawesome":{"icons":{"free-brands-svg-icons":["twitter","codepen","linkedin","github"],"free-solid-svg-icons":["angle-up"]}},"exportApplicationGlobal":true}
+            'default': {"modulePrefix":"simplefolio-ember","environment":"test","rootURL":"/","locationType":"none","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false},"_APPLICATION_TEMPLATE_WRAPPER":false,"_DEFAULT_ASYNC_OBSERVERS":true,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"APP":{"LOG_ACTIVE_GENERATION":false,"LOG_VIEW_LOOKUPS":false,"rootElement":"#ember-testing","autoboot":false,"name":"simplefolio-ember","version":"1.0.0+91c65d55"},"fontawesome":{"icons":{"free-brands-svg-icons":["twitter","codepen","linkedin","github"],"free-solid-svg-icons":["angle-up"]}},"exportApplicationGlobal":true}
           };
           Object.defineProperty(exports, '__esModule', {value: true});
           return exports;
