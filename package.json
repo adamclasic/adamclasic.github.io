@@ -11,7 +11,7 @@
     "test": "tests"
   },
   "scripts": {
-    "homepage": "https://adamclasic.github.io/dist",
+    "homepage": "https://adamclasic.github.io/dist/",
     "build": "ember build",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
