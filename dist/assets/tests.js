@@ -429,7 +429,7 @@ define("adamclasic.github.io/tests/unit/controllers/application-test", ["qunit",
 define('simplefolio-ember/config/environment', [], function() {
   
           var exports = {
-            'default': {"modulePrefix":"simplefolio-ember","environment":"test","rootURL":"/","locationType":"none","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false},"_APPLICATION_TEMPLATE_WRAPPER":false,"_DEFAULT_ASYNC_OBSERVERS":true,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"APP":{"LOG_ACTIVE_GENERATION":false,"LOG_VIEW_LOOKUPS":false,"rootElement":"#ember-testing","autoboot":false,"name":"adamclasic.github.io","version":"1.0.0+0a5b40b0"},"fontawesome":{"icons":{"free-brands-svg-icons":["twitter","codepen","linkedin","github"],"free-solid-svg-icons":["angle-up"]}},"exportApplicationGlobal":true}
+            'default': {"modulePrefix":"simplefolio-ember","environment":"test","rootURL":"/","locationType":"none","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false},"_APPLICATION_TEMPLATE_WRAPPER":false,"_DEFAULT_ASYNC_OBSERVERS":true,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"APP":{"LOG_ACTIVE_GENERATION":false,"LOG_VIEW_LOOKUPS":false,"rootElement":"#ember-testing","autoboot":false,"name":"adamclasic.github.io","version":"1.0.0+27228245"},"fontawesome":{"icons":{"free-brands-svg-icons":["twitter","codepen","linkedin","github"],"free-solid-svg-icons":["angle-up"]}},"exportApplicationGlobal":true}
           };
           Object.defineProperty(exports, '__esModule', {value: true});
           return exports;

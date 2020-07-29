@@ -3234,7 +3234,7 @@
 ;define('simplefolio-ember/config/environment', [], function() {
   
           var exports = {
-            'default': {"modulePrefix":"simplefolio-ember","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false},"_APPLICATION_TEMPLATE_WRAPPER":false,"_DEFAULT_ASYNC_OBSERVERS":true,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"APP":{"name":"adamclasic.github.io","version":"1.0.0+0a5b40b0"},"fontawesome":{"icons":{"free-brands-svg-icons":["twitter","codepen","linkedin","github"],"free-solid-svg-icons":["angle-up"]}},"ember-a11y-testing":{"componentOptions":{"turnAuditOff":true}},"exportApplicationGlobal":true}
+            'default': {"modulePrefix":"simplefolio-ember","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false},"_APPLICATION_TEMPLATE_WRAPPER":false,"_DEFAULT_ASYNC_OBSERVERS":true,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"APP":{"name":"adamclasic.github.io","version":"1.0.0+27228245"},"fontawesome":{"icons":{"free-brands-svg-icons":["twitter","codepen","linkedin","github"],"free-solid-svg-icons":["angle-up"]}},"ember-a11y-testing":{"componentOptions":{"turnAuditOff":true}},"exportApplicationGlobal":true}
           };
           Object.defineProperty(exports, '__esModule', {value: true});
           return exports;
@@ -3243,7 +3243,7 @@
 
 ;
           if (!runningTests) {
-            require("simplefolio-ember/app")["default"].create({"name":"adamclasic.github.io","version":"1.0.0+0a5b40b0"});
+            require("simplefolio-ember/app")["default"].create({"name":"adamclasic.github.io","version":"1.0.0+27228245"});
           }
         
 //# sourceMappingURL=adamclasic.github.io.map
