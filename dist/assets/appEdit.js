@@ -11,10 +11,9 @@ reelteaImage.addEventListener("mouseleave", () => {
 
 // add Hover effect on Corona Game
 
-
 let CoronaImage = document.querySelector('img[src="dist/assets/images/feature.png"]')
 CoronaImage.addEventListener("mouseenter", () => {
-  CoronaImage.src = 'dist/assets/images/gameplay.gif'; 
+  CoronaImage.src = 'dist/assets/images/gameplay.gif';
 });
 
 CoronaImage.addEventListener("mouseleave", () => {
